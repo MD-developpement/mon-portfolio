@@ -3,9 +3,9 @@ import styles from "./page.module.css";
 
 export default function Contact() {
   return (
-    <div className="container">
-      <h1 className="title">Me Contacter</h1>
-      <p className="description">
+    <div className={styles.container}>
+      <h1 className={styles.title}>Me Contacter</h1>
+      <p className={styles.description}>
         Une question ? Un projet ? N&apos;hésitez pas à me contacter !
       </p>
 
@@ -14,7 +14,8 @@ export default function Contact() {
           <h2>Coordonnées</h2>
           <div className={styles.infoItem}>
             <strong>Email :</strong>
-            <a href="mailto:votre@email.com">votre@email.com</a>
+            <a href="mailto:md.developpementweb@gmail.com
+">md.developpementweb@gmail.com</a>
           </div>
           <div className={styles.infoItem}>
             <strong>LinkedIn :</strong>
@@ -29,7 +30,7 @@ export default function Contact() {
           <div className={styles.infoItem}>
             <strong>GitHub :</strong>
             <a
-              href="https://github.com"
+              href="https://github.com/MD-developpement"
               target="_blank"
               rel="noopener noreferrer"
             >

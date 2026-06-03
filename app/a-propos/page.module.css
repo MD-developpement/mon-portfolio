@@ -1,21 +1,36 @@
+.container { 
+  background-image: url('/images/fonts/fondblue.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
+.title {
+  text-align: center;
+  color: #fdfdfd;
+}
+
+
 .bio h2,
 .skills h2 {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #364AB0;
+  margin-bottom: 3rem;
+  color: #2b8e9b;
+  margin-left: 5%;
 }
 
 .bio p {
   font-size: 1.125rem;
   line-height: 1.8;
-  color: #666;
-  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .skillGrid {

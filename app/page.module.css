@@ -5,7 +5,9 @@
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('/images/fonts/fondblue.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Contenu centré */

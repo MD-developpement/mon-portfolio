@@ -3,6 +3,8 @@
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    margin-right: 1rem;
 }
 
 .formGroup {
@@ -30,13 +32,13 @@
 .formGroup input:focus,
 .formGroup textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #54b7cf;
 }
 
 .submitBtn {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #083e47 0%, #38bad1 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -47,7 +49,7 @@
 }
 
 .submitBtn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
 
 

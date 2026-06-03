@@ -1,3 +1,21 @@
+.container { 
+  background-image: url('/images/fonts/fondblue.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.description {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .contactWrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -14,7 +32,7 @@
 .contactInfo h2 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  color: #364AB0;
+  color: #2b969e;
 }
 
 .infoItem {
@@ -28,7 +46,7 @@
 }
 
 .infoItem a {
-  color: #364AB0;
+  color: #41a9c4;
   text-decoration: none;
 }
 

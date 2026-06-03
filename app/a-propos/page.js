@@ -2,20 +2,24 @@ import styles from './page.module.css'
 
 export default function About() {
   return (
-    <div className="container">
-      <h1 className="title">À propos de moi</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>À propos de moi</h1>
       
       <div className={styles.content}>
         <div className={styles.bio}>
           <h2>Qui suis-je ?</h2>
           <p>
-            Développeur web passionné avec 3 ans d&apos;expérience dans la création
-            d&apos;applications modernes et performantes. Spécialisé dans l&apos;écosystème
-            React et Next.js.
+            Développeur web passionné avec 3 ans d'expérience dans la création
+            de site internet modernes et performants. Spécialisé dans l'écosystème
+            Front-end.
           </p>
           <p>
-            J&apos;aime transformer des idées en produits concrets qui résolvent
-            de vrais problèmes utilisateurs.
+            J'aime transformer des idées en site web concrets avec
+            des intéractions utilisateurs.
+          </p>
+          <p>
+            En dehors du code, je suis un passionné de design et de nouvelles
+            technologies, toujours à la recherche de nouvelles façons d'améliorer mes compétences.
           </p>
         </div>
 
@@ -25,9 +29,9 @@ export default function About() {
             <div className={styles.skillCategory}>
               <h3>Frontend</h3>
               <ul>
+                <li>HTML5 & CSS3</li>
                 <li>React & Next.js</li>
                 <li>JavaScript ES6+</li>
-                <li>HTML5 & CSS3</li>
                 <li>Responsive Design</li>
               </ul>
             </div>
@@ -35,10 +39,7 @@ export default function About() {
             <div className={styles.skillCategory}>
               <h3>Backend</h3>
               <ul>
-                <li>Node.js & Express</li>
-                <li>API REST</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
+                <li>PHP</li>
               </ul>
             </div>
 
@@ -48,7 +49,7 @@ export default function About() {
                 <li>Git & GitHub</li>
                 <li>VS Code</li>
                 <li>Figma</li>
-                <li>Postman</li>
+                <li>Spline 3D</li>
               </ul>
             </div>
           </div>

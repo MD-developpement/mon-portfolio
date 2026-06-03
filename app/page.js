@@ -4,9 +4,9 @@ import Tag from "../components/Tag/Tag"
 const technologies = [
   "React",
   "Next.js",
-  "Node.js",
-  "TypeScript",
-  "Tailwind CSS",
+  "Html",
+  "Css",
+  "Javascript",
 ]
 
 export default function Home() {
@@ -14,20 +14,20 @@ export default function Home() {
     <div className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
-          Bonjour, je suis <span className={styles.highlight}>John Doe</span>
+          Bonjour, je suis <span className={styles.highlight}>Mathieu Duguet</span>
         </h1>
         <p className={styles.heroSubtitle}>
-          Développeur Web Full-Stack
+          Développeur Web Front-end
         </p>
         <p className={styles.heroDescription}>
-          Je crée des applications web modernes, performantes et accessibles
-          avec React, Next.js et Node.js.
+          Je crée des sites web modernes, performantes et accessibles
+          avec React, Next.js et Html-Css.
         </p>
         <div className={styles.heroButtons}>
-          <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
+          <a href="http://localhost:3000/projets" className={`${styles.btn} ${styles.btnPrimary}`}>
             Voir mes projets
           </a>
-          <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+          <a href="http://localhost:3000/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
             Me contacter
           </a>
         </div>

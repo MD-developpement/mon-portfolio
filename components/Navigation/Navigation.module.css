@@ -18,7 +18,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #36b5be;
   text-decoration: none;
   z-index: 101;
 }
@@ -39,12 +39,12 @@
 }
 
 .link:hover {
-  color: #667eea;
+  color: #36b5be;
 }
 
 .active {
-  color: #667eea;
-  border-bottom: 2px solid #667eea;
+  color: #36b5be;
+  border-bottom: 2px solid #36b5be;
 }
 
 /* Bouton burger - caché sur desktop */
@@ -115,6 +115,6 @@
   }
 
   .active {
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #36b5be;
   }
 }
