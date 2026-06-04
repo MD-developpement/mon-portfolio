@@ -27,7 +27,7 @@
 
 /* Nom en surbrillance */
 .highlight {
-  color: #ffd700;
+  color: #0b2a4e;
   display: block;
 }
 
@@ -70,7 +70,7 @@
 /* Bouton principal */
 .btnPrimary{
   background-color: white;
-  color: #364AB0;
+  color: #32c7cc;
 }
 
 .btnPrimary:hover {
@@ -87,7 +87,7 @@
 
 .btnSecondary:hover {
   background-color: white;
-  color: #364AB0;
+  color: #32c7cc;
   transform: translateY(-2px);
 }
 
