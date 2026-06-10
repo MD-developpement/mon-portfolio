@@ -37,6 +37,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  margin: 2rem;
+  transition: all 0.5s ease-in;
+}
+
+.skillGrid:hover {
+  transform: scale(1.02);
+  transition: all 0.5s ease-in;
 }
 
 .skillCategory {
