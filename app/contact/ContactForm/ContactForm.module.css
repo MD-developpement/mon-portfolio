@@ -49,7 +49,8 @@
 }
 
 .submitBtn:hover {
-    transform: translateY(-4px);
+    transform: scale(1.02);
+    transition: transform 0.8s ease;
 }
 
 
