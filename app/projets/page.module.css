@@ -7,12 +7,14 @@
 .title {
   text-align: center;
   color: #ffffff;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.678);
 }
 
 .description {
   color: #ffffff;
   text-align: center;
   margin-top: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .grid {
