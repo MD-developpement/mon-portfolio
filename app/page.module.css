@@ -29,6 +29,7 @@
 .highlight {
   color: #0b2a4e;
   display: block;
+  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.692);
 }
 
 /* Sous-titre */
@@ -75,7 +76,7 @@
 
 .btnPrimary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.692);
 }
 
 /* Bouton secondaire */
@@ -89,6 +90,7 @@
   background-color: white;
   color: #32c7cc;
   transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.692);
 }
 
 /* Responsive : mobile */
