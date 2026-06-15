@@ -16,3 +16,7 @@
     text-decoration: none;
     color: #67b6b6;
 }
+
+.links a:hover {
+      color: #407474;
+}
