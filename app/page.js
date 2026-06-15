@@ -14,7 +14,22 @@ export default function Home() {
     <div className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
-          Bonjour, je suis <span className={styles.highlight}>Mathieu Duguet</span>
+          Bonjour, je suis <span className={styles.highlight}>
+            <span>M</span>
+            <span>a</span>
+            <span>t</span>
+            <span>h</span>
+            <span>i</span>
+            <span>e</span>
+            <span>u</span>
+            <span> </span>
+            <span>D</span>
+            <span>u</span>
+            <span>g</span>
+            <span>u</span>
+            <span>e</span>
+            <span>t</span>
+          </span>
         </h1>
         <p className={styles.heroSubtitle}>
           Développeur Web Front-end
