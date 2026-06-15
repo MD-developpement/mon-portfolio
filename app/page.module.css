@@ -30,7 +30,20 @@
   color: #0b2a4e;
   display: block;
   text-shadow: 0 10px 25px rgba(0, 0, 0, 0.692);
+  animation:
+      bounce 300ms
+      alternate infinite
+      cubic-bezier(.2, .65, .6, 1);
 }
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
 
 /* Sous-titre */
 .heroSubtitle {
