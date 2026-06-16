@@ -20,6 +20,7 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.664);
 }
 
 .description {
@@ -103,7 +104,9 @@ body {
 
 .link:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.548);
 }
+
 
 .linkPrimary {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
