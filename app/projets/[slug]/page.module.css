@@ -1,5 +1,7 @@
 body {
-  background-image: linear-gradient(to bottom, #131313, #313131, #dddcdc);
+  background-image: url('/images/fonts/fondblue.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
