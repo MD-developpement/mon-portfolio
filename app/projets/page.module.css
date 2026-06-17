@@ -45,7 +45,7 @@
 .card h2 {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #364AB0;
+  color: #2fb9b9;
 }
 
 .card p {
@@ -71,12 +71,12 @@
 .viewMore {
   display: inline-block;
   margin-top: 1rem;
-  color: #364AB0;
+  color: #367fb0;
   font-weight: 600;
 }
 
 .viewMore:hover {
-  color: #21809c;
+  color: #3de4d6;
 }
 
 .image {
