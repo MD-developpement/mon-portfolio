@@ -7,6 +7,7 @@
 .title {
   text-align: center;
   color: #ffffff;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.74);
 }
 
 .description {
@@ -14,6 +15,7 @@
   color: #ffffff;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .contactWrapper {
@@ -28,6 +30,7 @@
   padding: 2rem;
   border-radius: 12px;
   height: fit-content;
+   box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.562);
 }
 
 .contactInfo h2 {
