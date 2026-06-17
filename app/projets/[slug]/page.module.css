@@ -84,6 +84,14 @@ body {
   border-radius: 20px;
   font-size: 0.875rem;
   color: #555;
+  animation: pulse 1800ms infinite;
+}
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.1);
+    background: #21bec9;
+  }
 }
 
 .links {
@@ -106,7 +114,7 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.548);
   border-color: #4bb0cf;
-  color: #19baeb;
+  color: #2cceff;
 }
 
 
@@ -117,5 +125,5 @@ body {
 }
 
 .linkPrimary:hover {
-  background: linear-gradient(135deg, #4bb0cf83 0%, #667eeaa2 100%);
+  background: linear-gradient(135deg, #2a7086 0%, #526bda 100%);
 }
