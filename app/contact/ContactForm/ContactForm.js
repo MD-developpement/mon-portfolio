@@ -10,7 +10,7 @@ export default function ContactForm() {
         email: '',
         message: ''
     })
-    const [status, setStatus] = useState('')
+    const [result, setResult] = useState("");
 
     const handleChange = (e) => {
         const { name, value } = e.target
@@ -20,26 +20,23 @@ export default function ContactForm() {
         }))
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
 
-        // Simulation d'envoi (dans un vrai projet, vous appelleriez une API)
-        setStatus('sending')
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "0e3241e5-24da-4934-8505-01ddb73fc26d");
 
-        setTimeout(() => {
-            console.log('Formulaire envoyé :', formData)
-            setStatus('success')
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
 
-            // Réinitialiser le formulaire
-            setFormData({ name: '', email: '', message: '' })
-
-            // Masquer le message après 5 secondes
-            setTimeout(() => setStatus(''), 5000)
-        }, 1500)
-    }
+    const data = await response.json();
+    setResult(data.success ? "Success!" : "Error");
+  };
     return (
-        <form className={styles.form} onSubmit={handleSubmit}>
-            {status === 'success' && (
+        <form className={styles.form} onSubmit={onSubmit}>
+            {result === "Success!" && (
                 <div className={styles.successMessage}>
                     ✅ Message envoyé avec succès ! Je vous répondrai bientôt.
                 </div>
@@ -84,9 +81,7 @@ export default function ContactForm() {
             <button
                 type="submit"
                 className={styles.submitBtn}
-                disabled={status === 'sending'}
-            >
-                {status === 'sending' ? 'Envoi en cours...' : 'Envoyer le message'}
+            > Envoyer le message
             </button>
         </form>
     )
