@@ -31,6 +31,19 @@ export default function ContactForm() {
       body: formData
     });
 
+
+     setTimeout(() => {
+           
+            // Réinitialiser le formulaire
+            setFormData({ name: '', email: '', message: '' })
+
+            // Masquer le message après 5 secondes
+            setTimeout(() => setResult(''), 3000)
+        }, 1500)
+
+    // Réinitialiser le formulaire
+    setFormData({ name: '', email: '', message: '' })
+
     const data = await response.json();
     setResult(data.success ? "Success!" : "Error");
   };
