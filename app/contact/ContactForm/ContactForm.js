@@ -6,6 +6,7 @@ import styles from './ContactForm.module.css'
 export default function ContactForm() {
 
     const [formData, setFormData] = useState({
+        subject: '',
         name: '',
         email: '',
         message: ''
@@ -35,14 +36,14 @@ export default function ContactForm() {
      setTimeout(() => {
            
             // Réinitialiser le formulaire
-            setFormData({ name: '', email: '', message: '' })
+            setFormData({ subject: '', name: '', email: '', message: '' })
 
             // Masquer le message après 5 secondes
             setTimeout(() => setResult(''), 3000)
         }, 1500)
 
     // Réinitialiser le formulaire
-    setFormData({ name: '', email: '', message: '' })
+    setFormData({ subject: '', name: '', email: '', message: '' })
 
     const data = await response.json();
     setResult(data.success ? "Success!" : "Error");
@@ -54,6 +55,21 @@ export default function ContactForm() {
                     ✅ Message envoyé avec succès ! Je vous répondrai bientôt.
                 </div>
             )}
+            <input type="hidden" name="from_name" value="Message du Portfolio"></input>
+            
+            
+
+            <div className={styles.formGroup}>
+                <label htmlFor="subject">Sujet</label>
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
 
             <div className={styles.formGroup}>
                 <label htmlFor="name">Nom</label>
