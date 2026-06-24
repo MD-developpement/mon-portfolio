@@ -1,4 +1,5 @@
 import { Inter, Poppins } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import Navigation from "@/components/Navigation/Navigation"
 import Footer from "@/components/Footer/Footer"
