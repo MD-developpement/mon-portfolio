@@ -127,3 +127,10 @@ body {
 .linkPrimary:hover {
   background: linear-gradient(135deg, #2a7086 0%, #526bda 100%);
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+}
