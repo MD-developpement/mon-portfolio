@@ -84,3 +84,13 @@
   height: 200px;
   border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 1rem;
+  } 
+
+  .card h2 {
+    font-size: 1.25rem;
+  }
+}
