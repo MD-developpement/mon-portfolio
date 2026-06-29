@@ -90,6 +90,10 @@
     font-size: 1rem;
   } 
 
+  .image {
+    height: 150px;
+  }
+
   .card h2 {
     font-size: 1.25rem;
   }
