@@ -31,6 +31,7 @@
   border-radius: 12px;
   height: fit-content;
    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.562);
+   margin-right: 1rem;
 }
 
 .contactInfo h2 {
